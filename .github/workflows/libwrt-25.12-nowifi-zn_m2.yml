@@ -1,5 +1,8 @@
 name: libwrt-25.12-nowifi-zn_m2
 
+on:
+  workflow_dispatch:
+
 env:
   REPO_URL: https://github.com/LiBwrt/openwrt-6.x.git
   REPO_BRANCH: 25.12-nss
