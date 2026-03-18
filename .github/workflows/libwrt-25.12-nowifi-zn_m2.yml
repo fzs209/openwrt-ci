@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/LiBwrt/openwrt-6.x.git
+  REPO_URL: https://github.com/fzs209/openwrt-6.x.git
   REPO_BRANCH: 25.12-nss
   CONFIG_FILE: configs/libwrt-25.12-nowifi-zn_m2.config
   DIY_SCRIPT: libwrt.sh
